@@ -1,3 +1,3 @@
 FROM alpine
-COPY quickstart.sh /
-CMD ["/quickstart.sh"]
+COPY build.sh /
+CMD ["/build.sh"]
